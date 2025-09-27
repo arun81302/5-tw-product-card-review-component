@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="h-screen bg-orange-50 flex justify-center items-center">
+  <div id="container" class= "w-[90%] bg-white rounded-xl overflow-hidden shadow-2xl md:w-[80%] md:h-80  md:flex xl:w-[50%] 2xl:w-[45%]">
+    <img src="/images/image-product-mobile.jpg" alt="" class="w-[100%]  md:w-[50%] md:object-cover md:hidden">
+    <img class="hidden w-[100%]  md:w-[50%] md:object-cover md:block" src="/images/image-product-desktop.jpg" alt="">
+
+    <div id="innercontainer" class="w-[90%] mx-auto md:mx-auto md:w-[42%] 2xl:flex 2xl:flex-col 2xl:justify-between">
+      <p id="perfume" class="font-light tracking-[5px] mt-4 md:mt-2 md:text-sm md:font-light">PERFUME</p>
+      <h1 class="font-bold text-3xl mt-2 md:mt-1">Gabrielle Essence Eau Da parfum</h1>
+      <p class="font-light my-3">A floral, solar and volupious interpretaion composed by Olivier Polge, Perfume-Creator for the House of Chanel</p>
+      <div id="price">
+        <p class="text-2xl font-bold text-green-700">$149.99<span class="text-sm ml-2 align-text-top line-through text-gray-500">$69.99</span></p>
+      </div>
+      <button class="w-full mt-2 bg-green-700 mb-4 flex items-center justify-center gap-3 py-2 font-bold text-white rounded-md border-none hover:bg-green-800"><img src="/images/icon-cart.svg" alt="">Add to Cart</button>
+    </div>
+  </div>
+  
+</body>
+</html>
